@@ -1,9 +1,5 @@
-//myworks.dart file
-
-//main.dart is different
-
-import 'package:design_steps/colors.dart';
 import 'package:flutter/material.dart';
+import 'package:pizza/app_colors.dart';
 
 class MyWorks extends StatefulWidget {
   const MyWorks({super.key});
@@ -17,29 +13,19 @@ class _MyWorksState extends State<MyWorks> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(
-          "Pizza",
-          style: TextStyle(
-            color: fontColor1, //from colors.dart file
-            fontFamily: "Pacifico", //we added!
-            fontSize: 20,
-          ),
-        ),
-        backgroundColor: mainColor, //from colors.dart file
+        title: Text("Pizza",
+            style: TextStyle(
+                color: fontColor1, fontFamily: "Pacifico", fontSize: 20)),
+        backgroundColor: mainColor,
         centerTitle: true,
       ),
-      body: const Center(
-        //horizontal centering
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center, //vertical centering
-          children: [
-            Text(
-              "Hi there!",
-              style: TextStyle(fontSize: 30),
-            ),
-          ],
-        ),
-      ),
+      body: Center(
+          child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          const Text("Let's eat pizza", style: TextStyle(fontSize: 30))
+        ],
+      )),
     );
   }
 }
