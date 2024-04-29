@@ -19,8 +19,6 @@ dependencies:
 
   cupertino_icons: ^1.0.2
 
-  tflite_flutter: ^0.10.3
-
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -32,5 +30,3 @@ flutter:
   generate: true
 
   uses-material-design: true
-
-
