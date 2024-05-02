@@ -2,7 +2,6 @@
 //main.dart is different!
 
 import 'package:flutter/material.dart';
-import 'package:spapp/game_screen.dart';
 
 class OurApp extends StatefulWidget {
   const OurApp({super.key});
