@@ -1,0 +1,5 @@
+UPDATE customers 
+
+SET customer_address = "Antalya Turkiye"
+
+WHERE customer_id = 2;
