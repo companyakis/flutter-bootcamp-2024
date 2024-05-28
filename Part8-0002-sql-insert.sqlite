@@ -1,0 +1,4 @@
+INSERT INTO products(product_name, price) VALUES ("3D Printer", 2400);
+
+INSERT INTO customers(customer_name, customer_address) VALUES ("Mustafa Buyukdereli", "Mars");
+
