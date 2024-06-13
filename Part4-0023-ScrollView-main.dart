@@ -46,7 +46,13 @@ class _MustafaAppState extends State<MustafaApp> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Container(width: 100, height: 300, color: Colors.blue),
-            Container(width: 300, height: 400, color: Colors.green),
+            Container(
+                width: 300,
+                height: 400,
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(30),
+                  color: Colors.green,
+                )),
             Container(width: 90, height: 500, color: Colors.purple),
           ],
         )),
