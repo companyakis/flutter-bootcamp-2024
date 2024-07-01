@@ -1,6 +1,0 @@
-CREATE TABLE "customers" (
-	"customer_id"	INTEGER,
-	"customer_name"	TEXT,
-	"customer_address"	TEXT,
-	PRIMARY KEY("customer_id" AUTOINCREMENT)
-);
