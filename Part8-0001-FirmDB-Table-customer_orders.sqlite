@@ -1,9 +1,0 @@
-CREATE TABLE "customer_orders" (
-	"order_id"	INTEGER,
-	"product_id"	INTEGER,
-	"customer_id"	INTEGER,
-	"quantity"	INTEGER,
-	FOREIGN KEY("customer_id") REFERENCES "customers"("customer_id"),
-	FOREIGN KEY("product_id") REFERENCES "products"("product_id"),
-	PRIMARY KEY("order_id" AUTOINCREMENT)
-);
