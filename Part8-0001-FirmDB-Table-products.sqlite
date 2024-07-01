@@ -1,6 +1,0 @@
-CREATE TABLE "products" (
-	"product_id"	INTEGER,
-	"product_name"	TEXT,
-	"price"	INTEGER,
-	PRIMARY KEY("product_id" AUTOINCREMENT)
-);
